@@ -1,0 +1,11 @@
+<%= form_with url: contacts_path  do |f| %> <!--#adicionado-->
+  <h2>Have a question, request, or an issue? Contact us!</h2>
+
+  <p>
+    <%= f.text_area :message %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
